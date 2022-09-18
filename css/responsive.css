@@ -1,0 +1,247 @@
+@media(max-width: 1200px){
+	.productDetails .productTitle h2{
+		font-size: 24px;
+	}
+	.productDetails .productTitle h3 {
+    	font-size: 18px;
+	}
+	.productDetails .productTitle h4 {
+    	font-size: 14px;
+ }
+	.productDetails .productTitle .checklist {
+    	margin: 10px 0px;
+	}
+	.productDetails .productTitle .checklist ul li {
+   		font-size: 16px;
+}
+	.productDetails .productTitle .idea ul li {
+    	font-size: 13px;
+    }
+    .productDetails .productTitle .advantage li {
+    	padding: 10px;
+    	font-size: 12px;
+    	line-height: 1.2;
+    }
+
+	.productbox .but{
+		padding: 10px 6px;
+		font-size: 18px;
+	}
+
+	.feature .innerR .box a{
+		height: calc( var(--height) / 1.5 );
+	}
+	.beforeAfter,
+	.beforeAfter img { 
+		height: calc( var(--height) / 1.5 );
+	}
+	.beforeAfter div:nth-child(3){
+	height: 67% !important;
+	}
+	.measure h3 {
+    	font-size: 16px;
+ }
+	.measure .method p {
+    	font-size: 14px;
+ }
+	.measure .middle h4 {
+    	font-size: 14px;
+ }
+	.measure .middle .tablelist ul li span {
+		font-size: 14px;
+	}
+	.measure .middle .shape1 a::before {
+		width: 20px;
+	}
+	.measure .middle .shape1 a {
+		padding: 5px 0px 5px 22px;
+	}
+	.measure .calculator {
+    	padding: 20px 20px 0px;
+	}
+	.measure .calculator .form-select {
+		font-size: 16px;
+		background-size: 10px 10px;
+	}
+	input[type="text"]::-webkit-input-placeholder{
+		font-size: 16px;
+	}
+
+	.measure .method h4 {
+    	font-size: 12px;
+    	padding: 6px 8px;
+    }
+    .wrapper .wrapperInner h3 {
+    	font-size: 20px;
+ }
+	.wrapper .wrapperInner i {
+    	font-size: 55px;
+	}
+
+}
+@media (max-width: 992px){
+	.productDetails .productTitle h2 {
+    font-size: 22px;
+}
+.productDetails .productTitle .checklist ul li {
+    font-size: 15px;
+}
+.productDetails .productTitle .advantage li {
+    font-size: 12px;
+}
+.productDetails .productTitle .idea ul li {
+    font-size: 12px;
+}
+.productbox {
+    margin-top: 50px;
+}
+.productbox .but {
+    font-size: 14px;
+    padding: 8px 3px;
+}
+.productbox .but i {
+    font-size: 28px;
+}
+.feature h3 {
+    font-size: 18px;
+    font-weight: 500;
+    padding-bottom: 5px;
+}
+.measure h3 {
+    font-size: 13px;
+    padding: 0px 8px;
+}
+.measure .method p {
+    font-size: 13px;
+    margin: 5px 0px;
+}
+.measure .middle h4 {
+    font-size: 13px;
+}
+.measure .middle .tablelist ul li span {
+    font-size: 13px;
+}
+.measure .middle .shape1 a {
+    padding: 5px 0px 5px 16px;
+    font-size: 13px;
+}
+.measure .middle .shape1 a::before {
+    width: 13px;
+}
+.measure .middle .tablelist ul li:last-child {
+    margin-bottom: 10px;
+}
+.measure .middle p {
+    margin: 0px;
+}
+.measure .calculator {
+    padding: 15px 15px 0px;
+}
+.measure .calculator .form-select {
+    font-size: 14px;
+    background-size: 10px 10px;
+}
+
+input[type="text"]::-webkit-input-placeholder{
+		font-size: 16px;
+}
+.measure .calculator .btn3 {
+	font-size: 16px;
+}
+.measure .method h4 {
+    margin-bottom: 0px;
+}
+.measure .method p {
+    font-size: 12px;
+}
+.wrapper .wrapperInner h3 {
+    font-size: 15px;
+    margin-top: 10px;
+}
+.wrapper .wrapperInner i {
+    font-size: 40px;
+}
+
+
+
+
+
+}
+@media (max-width: 767px){
+.productDetails .productTitle h2 {
+    font-size: 20px;
+    text-align: center;
+}
+.productDetails .productTitle h3 {
+    font-size: 18px;
+    text-align: center;
+}
+.productDetails {
+    padding: 15px 0px;
+}
+.productbox {
+    text-align: center;
+}
+.productDetails .productTitle .idea{
+	margin-top: 20px;
+}
+
+
+.beforeAfter,
+	.beforeAfter img { 
+		height: calc( var(--height) / 1.8 );
+	}
+	.beforeAfter div:nth-child(3){
+	height: 55.5% !important;
+	}
+
+.feature h3 {
+    text-align: center;
+}
+.feature span {
+	display: none;
+}
+.measure {
+    padding: 15px 0px;
+}
+.measure .method p {
+    font-size: 13px;
+}
+.measure h3 {
+    font-size: 14px;
+    padding: 0px 8px;
+}
+.measure .method .shape1 {
+    margin-bottom: 20px;
+}
+.measure .middle p {
+    margin-bottom: 5px;
+    font-size: 16px;
+}
+.measure .middle .shape1 a {
+    padding: 10px 0px 10px 25px;
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+.measure .middle .shape1 a::before {
+		width: 20px;
+	}
+.measure .calculator .form-select {
+    font-size: 16px;
+    background-size: 19px 14px;
+}
+.measure .calculator .btn3 {
+    font-size: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 576px){}
